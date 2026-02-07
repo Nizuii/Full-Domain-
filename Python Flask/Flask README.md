@@ -45,3 +45,18 @@ def home():
 if __name__ == "__main__":
   app.run(debug=True)
 ```
+Execute it by:
+
+```bash
+python3 app.py
+```
+
+open browser:
+
+```bash
+http://127.0.0.1:5000
+```
+
+The result will be like:
+
+<img width="1921" height="1046" alt="image" src="https://github.com/user-attachments/assets/a6f14b3f-1f01-4924-8c3f-b2290d40fe6b" />
