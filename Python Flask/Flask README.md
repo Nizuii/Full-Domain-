@@ -60,3 +60,42 @@ http://127.0.0.1:5000
 The result will be like:
 
 <img width="1921" height="1046" alt="image" src="https://github.com/user-attachments/assets/a6f14b3f-1f01-4924-8c3f-b2290d40fe6b" />
+
+### Code Analysis.
+
+Lets break down it down line by line:
+
+```bash
+from flask import Flask
+```
+
+Here we are importing the flask class.
+
+```bash
+app = Flask(__name__)
+```
+
+We are creating a flask application instance. __name__ helps flask knowwhere our app lies.
+
+```bash
+@app.route("/")
+```
+
+This is a route decorator.
+
+- The `/` means homepage.
+- Whenever user visits `/`, Flask runs the function below it.
+
+```bash
+def home():
+  return "Hello, Flask!"
+```
+
+Whatever you return is sent to the browser as HTTP response.
+
+```bash
+app.run(debug=True)
+```
+
+- Starts the development server.
+- `debug = True` auto-reloads & shows errors (never use in production.)
