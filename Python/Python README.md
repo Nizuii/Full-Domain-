@@ -38,3 +38,24 @@ request = {
 
 # Set (unique values)
 ```
+
+## Loops
+
+`for` loop:
+
+```bash
+ips = ["10.0.0.1", "8.8.8.8", "192.168.1.5"]
+
+for ip in ips:
+    print("Checking:", ip)
+```
+
+`while` loop:
+
+```bash
+attempts = 0
+
+while attempts < 3:
+    print("Trying...")
+    attempts += 1
+```
