@@ -9,3 +9,32 @@ Python has a large collection of library for almost everythingg:
 - Exploit Development
 - Reverse engineering helpers
 
+## Data Types 
+
+```bash
+# Numbers
+port = 443
+timeout = 2.5
+
+# Strings
+ip = "192.168.1.7"
+log_line = "2024-02-01 10:33:21 Failed login from 10.0.0.5"
+
+# Boolean
+is_suspicious = True
+
+# List (ordered, mutable)
+ips = ["10.0.0.1", "8.8.8.8", "192.168.1.5"]
+
+# Tuple (ordered, immutable)
+coords = ("10.0.0.1", 22)
+
+# Dictionary (key-value, extremely important)
+request = {
+    "ip": "10.0.0.5",
+    "status": "FAILED",
+    "timestamp": "2024-02-01 10:33:21"
+}
+
+# Set (unique values)
+```
